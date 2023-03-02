@@ -1,0 +1,10 @@
+Bundle-Name: Book-api
+Bundle-SymbolicName: com.armantec.bms.book.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.armantec.bms.book.exception,\
+	com.armantec.bms.book.model,\
+	com.armantec.bms.book.service,\
+	com.armantec.bms.book.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Book-service/service.xml

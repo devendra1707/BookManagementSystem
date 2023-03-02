@@ -1,0 +1,10 @@
+Bundle-Name: Author-api
+Bundle-SymbolicName: com.armantec.bms.author.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.armantec.bms.author.exception,\
+	com.armantec.bms.author.model,\
+	com.armantec.bms.author.service,\
+	com.armantec.bms.author.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Author-service/service.xml

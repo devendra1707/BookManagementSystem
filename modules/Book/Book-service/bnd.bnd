@@ -1,0 +1,6 @@
+Bundle-Name: Book-service
+Bundle-SymbolicName: com.armantec.bms.book.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-dsannotations-options: inherit

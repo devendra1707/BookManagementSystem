@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:Author:Author-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../Author-api/src/main/java"
+}
+
+group = "com.armantec.bms.author"
